@@ -1,0 +1,27 @@
+name: main
+algorithms: [greedy, AS, MMAS, KMeansACO]
+instances:
+  - CMT/CMT1
+  - CMT/CMT2
+  - CMT/CMT3
+  - CMT/CMT4
+  - CMT/CMT5
+  - Golden/Golden_1
+  - Golden/Golden_2
+  - Golden/Golden_3
+  - Golden/Golden_4
+  - Golden/Golden_5
+  - Uchoa/X-n101-k25
+  - Uchoa/X-n200-k36
+  - Uchoa/X-n303-k21
+  - Uchoa/X-n384-k52
+  - Uchoa/X-n459-k26
+seeds: [1, 2, 3, 4, 5]
+params:
+  alpha: 1.0
+  beta: 2.0
+  rho: 0.1
+  Q: 1.0
+  m_ants: 30
+  t_max: 300
+  gamma: 3.0

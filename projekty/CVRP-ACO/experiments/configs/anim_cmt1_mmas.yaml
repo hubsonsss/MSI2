@@ -1,0 +1,13 @@
+name: anim_cmt1_mmas
+algorithms: [MMAS]
+instances:
+  - CMT/CMT1
+seeds: [42]
+params:
+  alpha: 1.0
+  beta: 2.0
+  rho: 0.1
+  Q: 1.0
+  m_ants: 30
+  t_max: 10000
+  gamma: 3.0
